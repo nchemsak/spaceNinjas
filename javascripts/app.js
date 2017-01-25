@@ -116,7 +116,7 @@ var Gauntlet = (function(Gauntlet) {
                                       <p class="card-text">Weapon: ${newPlay.weapon}</p>
                                       <p class="card-text">Weapon Damage: ${newPlay.weapon.damage}</p>
                                       <p class="card-text playerHealth">Health: ${newPlay.health}</p>
-                                      </div> <img src="/images/Ninja.png" alt="Card image">`);
+                                      </div> <img src="images/Ninja.png" alt="Card image">`);
 
             //----------------------------------- Adding Enemy Card to DOM ------------------------------------//
           $('.playercard2').append(`<div class="card-block">
@@ -125,7 +125,7 @@ var Gauntlet = (function(Gauntlet) {
                                       <p class="card-text">Weapon: ${orc.weapon}</p>
                                       <p class="card-text">Weapon Damage: ${orc.weapon.damage}</p>
                                       <p class="card-text orcHealth">Health: ${orc.health}</p>
-                                      </div> <img src="/images/Ninja-Free-Download-PNG.png" alt="Card image">`);
+                                      </div> <img src="images/Ninja-Free-Download-PNG.png" alt="Card image">`);
 
             //------------------------------ Function for Deducting Health ---------------------------//
           $('#play_button').click(function(event) {
